@@ -1,0 +1,26 @@
+.users {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.users-container {
+    display: grid;
+    grid-template-columns: repeat(3, 282px); /* Три колонки шириною 370 пікселів */
+    grid-gap: 25px; /* Проміжок між елементами */
+    justify-content: center;
+    margin-bottom: 40px;
+
+    & .user-card {
+        max-width: 370px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        background: var(--card-background);
+        border-radius: 10px;
+    }
+}
+

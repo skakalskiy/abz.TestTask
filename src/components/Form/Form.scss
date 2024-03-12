@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    & .text {
+        max-width: 380px;
+        width: 100%;
+        border: 1px solid #ccc;
+        padding: 15px 10px;
+    }
+
+    & .num {
+        margin-top: 0;
+        opacity: .5;
+        align-items: flex-start;
+    }
+
+    & .flex {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        max-width: 200px;
+        width: 100%;
+
+        & .pos {
+            margin-left: 15px;
+        }
+    }
+}
+
